@@ -6,12 +6,22 @@ A simple and elegant notes application built with React that allows users to cre
 
 **Node Version Required:** Node.js 16.x or higher
 
-**Installation:**
+**Step 1: Clone the Repository**
+```bash
+git clone <repository-url>
+```
+
+**Step 2: Navigate to Project Folder**
+```bash
+cd CodetikkiProject
+```
+
+**Step 3: Install Dependencies**
 ```bash
 npm install
 ```
 
-**Start Development Server:**
+**Step 4: Start Development Server**
 ```bash
 npm run dev
 ```
