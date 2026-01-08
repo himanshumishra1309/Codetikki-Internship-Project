@@ -33,14 +33,11 @@ function App() {
   return (
     <div className="h-screen bg-[#F0EADC] py-6 px-4 flex flex-col overflow-hidden">
       <div className="mx-auto w-full flex flex-col h-full" style={{ maxWidth: '1400px' }}>
-        {/* Header */}
         <div className="text-center mb-6 flex-shrink-0">
           <h1 className="text-4xl font-bold text-[#576238] mb-2">Notes App</h1>
         </div>
 
-        {/* Flex Container for Form and List */}
         <div className="flex gap-6 flex-1 min-h-0">
-          {/* Form Section */}
           <div className="w-[650px] flex-shrink-0">
             <div className="bg-white rounded-xl shadow-lg border-2 border-[#576238]/10 h-full flex flex-col">
               <h2 className="text-xl font-semibold text-[#576238] px-8 pt-6 pb-4 flex items-center gap-2 flex-shrink-0">
@@ -52,7 +49,6 @@ function App() {
             </div>
           </div>
 
-          {/* Notes List Section */}
           <div className="w-[650px] flex-shrink-0">
             <div className="bg-white rounded-xl shadow-lg border-2 border-[#576238]/10 h-full flex flex-col overflow-hidden">
               <div className="bg-gradient-to-r from-[#576238] to-[#576238]/90 px-8 py-4 flex-shrink-0">

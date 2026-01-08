@@ -65,7 +65,6 @@ function NoteForm({onAddNote}) {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
-      {/* Title Input */}
       <div className="space-y-2">
         <label className="block text-sm font-bold text-[#576238] uppercase tracking-wide">
           TITLE <span className="text-red-500">*</span>
@@ -93,7 +92,6 @@ function NoteForm({onAddNote}) {
         )}
       </div>
 
-      {/* Description Input */}
       <div className="space-y-2">
         <label className="block text-sm font-bold text-[#576238] uppercase tracking-wide">
           DESCRIPTION <span className="text-red-500">*</span>
@@ -122,7 +120,6 @@ function NoteForm({onAddNote}) {
         )}
       </div>
 
-      {/* Submit Button */}
       <button
         type="submit"
         disabled={!isFormValid}
