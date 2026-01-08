@@ -18,6 +18,29 @@ npm run dev
 
 The app will open at `http://localhost:5173` in your browser.
 
+## File Structure
+
+```
+CodetikkiProject/
+├── public/                      # Static assets
+├── src/
+│   ├── components/              # All React components
+│   │   ├── EmptyState.jsx      # Shows when no notes exist
+│   │   ├── Loader.jsx          # Loading spinner component
+│   │   ├── NoteForm.jsx        # Form to create new notes
+│   │   ├── NoteItem.jsx        # Individual note card display
+│   │   └── NoteList.jsx        # Container for all notes
+│   ├── App.jsx                 # Main application component
+│   ├── App.css                 # Application styles
+│   ├── main.jsx                # React entry point
+│   └── index.css               # Global styles and Tailwind imports
+├── eslint.config.js            # ESLint configuration
+├── index.html                  # HTML entry point
+├── package.json                # Project dependencies
+├── vite.config.js              # Vite configuration
+└── README.md                   # This file
+```
+
 ## Component Breakdown
 
 ### 1. **App.jsx** (Main Component)
@@ -116,4 +139,12 @@ This is called "lifting state up" - the parent component controls all data, and 
 
 ---
 
-**Made for Codetikki Assessment**
+## Acknowledgments
+
+I would like to express my sincere gratitude to **Nandi Gau Seva Foundation** and **Codetikki** for providing me with this wonderful opportunity to work on this assessment project. It has been a great learning experience, and I truly appreciate the chance to demonstrate my React development skills.
+
+I am looking forward to your valuable feedback and suggestions for improvement. Thank you for considering my submission!
+
+---
+
+**Made with dedication for Codetikki Assessment**
