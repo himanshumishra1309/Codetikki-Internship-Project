@@ -2,6 +2,17 @@
 
 A simple and elegant notes application built with React that allows users to create, view, and delete notes. The app features real-time form validation, a clean user interface, and smooth user experience with loading states.
 
+## Demo Video
+
+🎥 **Watch the complete walkthrough:** [Demo Video Link](https://drive.google.com/file/d/1DWrzpIux7bFty6XwT8SrLCmRfRUYme0S/view?usp=sharing)
+
+The video demonstrates:
+- Complete component structure and architecture
+- State management flow and data passing
+- Form validation and error handling
+- Loader and empty state implementations
+- Live demo of all features (create, delete, validation)
+
 ## How to Run
 
 **Node Version Required:** Node.js 16.x or higher
