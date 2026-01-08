@@ -116,4 +116,4 @@ This is called "lifting state up" - the parent component controls all data, and 
 
 ---
 
-**Made with ❤️ for Codetikki Assessment**
+**Made for Codetikki Assessment**
